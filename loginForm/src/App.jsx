@@ -19,10 +19,12 @@ const App = () => {
         
         
         <form action="#" className="login-form">
-          <Inputfield type="email"
+          <Inputfield icon="fa fa-envelope"
+          type="email"
           placeholder="Enter your email"/>
           
-         <Inputfield type="password"
+         <Inputfield icon="fa fa-lock" 
+          type="password"
           placeholder="Enter your password"/>
           
           <Forgot />
